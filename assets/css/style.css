@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Jost-Regular";
+    src: url(../font/static/Jost-Regular.ttf);
+}
+
+
+body {
+    background-color: #969CA1;
+    font-family: "Jost-Regular";
+}
+
+.bg-color {
+    background-color: #272B38;
+    border: 5px solid #272B38;
+    height: 530px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin: 30px;
+    padding-top: 90px;
+    padding-left: 250px;
+}
+
+.color {
+    color: #808080;
+}
+
+.bg-color span {
+    color: #47B5FF;
+}
+
+.input-password {
+    padding: 13px 40px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #2B4865;
+    color: #fff;
+}
+
+.input-email {
+    padding: 13px 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #2B4865;
+    color: #fff;
+
+}
+
+.login_btn{
+    border: 0px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 35px;
+    background-color: #72879D;
+    display: block;
+}
+
+.bg-color:hover {
+    border-radius: 50px;
+    border: 5px solid #47B5FF;
+    transition: 0.5s all;
+}
+
+input {
+    border: 2px solid #2B4865;
+}
+
+input:focus {
+    outline: 0;
+    border: 2px solid #47B5FF;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+.login_btn:hover{
+    background-color: #47B5FF;
+
+}
+.login_form{
+    margin-top: 30px;
+    max-width: 35%;
+}
+@media screen and (max-width:576px) {
+    .bg-color{
+        padding: 90px 16px;   
+    }
+    .login_form {
+        max-width: 100%;
+    }
+}
