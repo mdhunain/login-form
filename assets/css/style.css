@@ -35,9 +35,9 @@ body {
 
 .input-password {
     padding: 13px 40px;
+    margin: 10px 10px 0px 0px;
     width: 100%;
     border-radius: 10px;
-    margin-top: 10px;
     background-color: #2B4865;
     color: #fff;
 }
@@ -45,6 +45,7 @@ body {
 .input-email {
     padding: 13px 40px;
     width: 100%;
+    margin-top: 10px;
     border-radius: 10px;
     background-color: #2B4865;
     color: #fff;
@@ -88,6 +89,10 @@ a {
     margin-top: 30px;
     max-width: 35%;
 }
+.singup_form{
+    margin-top: 30px;
+    max-width: 55%;
+}
 @media screen and (max-width:576px) {
     .bg-color{
         padding: 90px 16px;   
@@ -95,4 +100,46 @@ a {
     .login_form {
         max-width: 100%;
     }
+}
+/* sign Up stard */
+.First-input{
+    margin: 30px;
+   
+}
+.email_item{
+    background-color: #2B4865;
+    margin-top: 20px;
+    width: 100%;
+    padding: 13px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.Password_item{
+    background-color: #2B4865;
+    margin-top: 15px;
+    width: 100%;
+    padding: 13px 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+.Sign_Up_btn{
+    border: 0px;
+    margin: 12px 0px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 35px;
+    background-color: #72879D;
+    display: block;
+}
+.Sign_Up_btn span{
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}   
+
+input:focus::placeholder{
+    color: #47B5FF;
 }
